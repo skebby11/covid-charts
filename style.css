@@ -1,0 +1,41 @@
+body {
+	padding: 0px 50px;
+	background-color: #f3f3f3;
+}
+
+.header {
+	padding: 40px;
+}
+
+.tabella {
+	
+  overflow-x: scroll;
+}
+
+.graficore {
+	padding: 40px;
+	margin: auto;
+}
+
+.footer {
+	padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+	padding: 0px 5px;
+	}
+
+	.header {
+		padding: 5px;
+	}
+
+	.graficore {
+		padding: 5px;
+		margin: auto;
+	}
+
+	.footer {
+		padding: 5px;
+	}
+}
